@@ -27,9 +27,9 @@ function App() {
 		getJoke();
 	}, []);
 
-	console.log(jokeData);
+	// console.log(jokeData);
 
-	console.log(JSON.stringify(jokeData.body[0], null, 4));
+	// console.log(JSON.stringify(jokeData.body[0], null, 4));
 
 	const setup = jokeData.body[0].setup;
 	const punchLine = jokeData.body[0].punchline;

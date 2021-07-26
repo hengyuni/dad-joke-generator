@@ -6,6 +6,7 @@
 }
 
 .App {
-	@include flexCenter() background-color: blanchedalmond;
+	@include flexCenter();
+	background-color: blanchedalmond;
 	text-align: center;
 }
