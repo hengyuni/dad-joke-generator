@@ -1,0 +1,11 @@
+@mixin flexCenter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.App {
+	@include flexCenter() background-color: blanchedalmond;
+	text-align: center;
+}
