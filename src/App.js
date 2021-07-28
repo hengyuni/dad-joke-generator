@@ -27,21 +27,21 @@ function App() {
 		getJoke();
 	}, []);
 
-	// console.log(jokeData);
-
-	// console.log(JSON.stringify(jokeData.body[0], null, 4));
-
 	const setup = jokeData.body[0].setup;
 	const punchLine = jokeData.body[0].punchline;
 
 	return (
-		<div className="App">
-			<h1>Dad Joke Generator</h1>
-			<button onClick={getJoke}>Gimme a joke</button>
-			<h2>Set Up</h2>
-			<p>{setup}</p>
-			<h2>Punch Line</h2>
-			<p>{punchLine}</p>
+		<div className="jokeContainer">
+			<div className="header">
+				<h1>Dad Joke Generator</h1>
+				<button onClick={getJoke}>Gimme a joke</button>
+			</div>
+			<div className="jokeBox">
+				<h2>Set Up</h2>
+				<p>{setup}</p>
+				<h2>Punch Line</h2>
+				<p>{punchLine}</p>
+			</div>
 		</div>
 	);
 }
