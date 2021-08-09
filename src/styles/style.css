@@ -31,8 +31,9 @@ body {
   margin: 2rem;
   padding: 3rem;
   max-width: 900px;
-  background-color: blanchedalmond;
+  background-color: #0a1d41;
   text-align: center;
+  border-radius: 5%;
 }
 
 .header {
@@ -40,11 +41,30 @@ body {
   padding: 2rem;
   width: 90%;
   background-color: whitesmoke;
+  border-radius: 5% 5% 0 0;
+}
+
+button {
+  background-color: #0a1d41;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 5%;
+}
+
+button:hover {
+  background-color: #23375e;
 }
 
 .jokeBox {
   padding: 2rem;
   width: 90%;
   background-color: whitesmoke;
+  border-radius: 0 0 5% 5%;
 }
 /*# sourceMappingURL=style.css.map */
