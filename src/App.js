@@ -33,7 +33,7 @@ function App() {
 	return (
 		<div className="jokeContainer">
 			<div className="header">
-				<h1>Dad Joke Generator</h1>git
+				<h1>Dad Joke Generator</h1>
 				<button onClick={getJoke}>Gimme a joke</button>
 			</div>
 			<div className="jokeBox">
